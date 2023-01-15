@@ -1,0 +1,27 @@
+.header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    /* Animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.header_logo{
+    object-fit: contain;
+    width:100px;
+}
+.header_userIcon{
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:30px;
+    height: 30px;
+margin-right: 30px;
+}
+.header_black{
+    background-color: #111;
+}
